@@ -1,3 +1,16 @@
+from flask import Flask
+from threading import Thread
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot Nyala!"
+
+def run_web():
+    app.run(host='0.0.0.0', port=8000)
+
+Thread(target=run_web).start()
 import hashlib
 import html
 import html as html_module
