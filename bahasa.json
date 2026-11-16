@@ -1,0 +1,48 @@
+{
+  "default": "EN",
+  "scripts": {
+    "arab": {
+      "pattern": "[\\u0600-\\u06FF]",
+      "langs": ["AR", "FA", "UR"]
+    },
+    "cyrillic": {
+      "pattern": "[\\u0400-\\u04FF]",
+      "langs": ["RU", "UK", "BG"]
+    },
+    "han": {
+      "pattern": "[\\u4E00-\\u9FFF]",
+      "langs": ["ZH", "JA"]
+    },
+    "hangul": {
+      "pattern": "[\\uAC00-\\uD7AF]",
+      "langs": ["KO"]
+    },
+    "thai": {
+      "pattern": "[\\u0E00-\\u0E7F]",
+      "langs": ["TH"]
+    },
+    "devanagari": {
+      "pattern": "[\\u0900-\\u097F]",
+      "langs": ["HI", "MR", "NE"]
+    }
+  },
+  "keywords": {
+    "EN": ["your", "you", "share", "with", "this", "the", "code", "verify", "verification", "is", "and", "for", "to", "from"],
+    "ID": ["kode", "verifikasi", "jangan", "adalah", "yang", "anda", "untuk", "dengan", "ini", "dari", "dan", "silahkan", "silakan", "gunakan", "berlaku"],
+    "MS": ["kod", "anda", "untuk", "dengan", "ini", "dari", "dan", "sila", "gunakan", "berlaku"],
+    "AR": ["رمز", "التحقق", "كلمة", "المرور", "من", "إلى", "هذا", "هذه"],
+    "RU": ["код", "пароль", "подтверждение", "этот", "для", "ваш"],
+    "ES": ["código", "verificación", "para", "con", "este", "desde"],
+    "PT": ["código", "verificação", "para", "com", "este", "desde"],
+    "FR": ["code", "vérification", "pour", "avec", "ce", "depuis"],
+    "DE": ["code", "bestätigung", "für", "mit", "dieser", "von"],
+    "IT": ["codice", "verifica", "per", "con", "questo", "da"],
+    "TR": ["kod", "doğrulama", "için", "ile", "bu", "den"],
+    "HI": ["कोड", "सत्यापन", "के", "लिए", "से", "यह"],
+    "TH": ["รหัส", "ยืนยัน", "สำหรับ", "จาก", "นี้"],
+    "VI": ["mã", "xác", "minh", "cho", "với", "từ"],
+    "JA": ["コード", "確認", "の", "ため", "から", "この"],
+    "KO": ["코드", "인증", "위한", "에서", "이"],
+    "ZH": ["验证", "码", "的", "为", "从", "这"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "telegram": {
+    "bot_token": "8907339490:AAHeQMAJa1u_j4zby36KCXT6xFRcVXESzAg",
+    "admin_ids": ["865572386"]
+  },
+  "thirdwave": {
+    "poll_seconds": 5,
+    "request_timeout": 15,
+    "page_size": 25,
+    "first_run_mode": "mark_only"
+  },
+  "message": {
+    "number_url": "https://t.me/filesontok",
+    "owner_url": "https://t.me/hbzil",
+    "discussion_url": "https://t.me/+Q6SRwQCZCeRmNmU1"
+  },
+  "filter": {
+    "blocked_langs": ["ID"]
+  },
+  "accounts": [],
+  "groups": []
+}
